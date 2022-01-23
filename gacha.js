@@ -23,17 +23,17 @@ startButton.onclick = () => {
     if(0 < randomNum && randomNum <= 3){
         paragraph.innerText = config[0].toLocaleString()+'円';
         paragraph.classList.add('ssr');
-        img.src = './img/ssr.png';
+        img.src = 'https://github.com/FiYuRa0118/otosidama.github.io/blob/main/ssr.png?raw=true';
         img.classList.add('ssrEffect');
     }else if(3 < randomNum && randomNum <= 20){
         paragraph.innerText = config[1].toLocaleString()+'円';
         paragraph.classList.add('sr');
-        img.src = './img/sr.png';
+        img.src = 'https://github.com/FiYuRa0118/otosidama.github.io/blob/main/sr.png?raw=true';
         img.classList.add('srEffect');
     }else if(20 < randomNum && randomNum <= 50){
         paragraph.innerText = config[2].toLocaleString()+'円';
         paragraph.classList.add('r');
-        img.src = './img/r.png';
+        img.src = 'https://github.com/FiYuRa0118/otosidama.github.io/blob/main/r.png?raw=true';
         img.classList.add('rEffect');
 
     }else{
