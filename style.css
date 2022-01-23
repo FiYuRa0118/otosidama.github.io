@@ -1,0 +1,64 @@
+@import url("./animation.css");
+
+body{
+    text-align: center;
+    background-color: #f3f3f3;
+    }
+    .box {
+        position: relative;
+    }
+    .box .box_imageLeft {
+        width: 20%;
+        position: absolute;
+        left: 0;
+    }
+    .box .box_imageRight {
+        width: 20%;
+        position: absolute;
+        right: 0;
+    }
+     
+         
+             
+.hidden{
+    display: none;
+}
+
+.ssr {
+    font-size: 45px;
+    color: red;
+}
+.sr {
+    font-size: 45px;
+    color: gold;
+}
+.r {
+    font-size: 45px;
+    color: silver;
+}
+.c {
+    font-size: 45px;
+    color: #815a2b;
+}
+
+.trigger{
+    width: 20%;
+    height: 20%;
+    animation: korokoro 2.5s linear 0s infinite;
+}
+.ssrEffect {
+    width: 20%;
+    height: 20%;
+    animation: purun 0.6s linear 0s 3;
+}
+.srEffect {
+    width: 20%;
+    height: 20%;
+    animation: poyon 0.5s linear 0s 2;
+}
+.rEffect {
+    width: 20%;
+    height: 20%;
+    animation: purun 0.4s linear 0s 2;
+}
+
